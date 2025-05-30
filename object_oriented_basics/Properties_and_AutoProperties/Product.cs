@@ -2,7 +2,7 @@
 {
     //properties and autoproperties are special types of methods which acts like a field/instance variable.
     private string productName;
-    private string productPrice;
+    private int productPrice;
 
     public string ProductId { get; set; } //Auto property..
 
@@ -20,7 +20,7 @@
         }
     }
 
-    public string ProductPrice
+    public int ProductPrice
     {
         set
         {
